@@ -113,103 +113,115 @@ git push -u origin main
   </body>
   ```
 
-  6. Wrote out an internal style sheet to start gauging the way things are put.
+  6. Wrote out an external style sheet. ./assets/css/style.css
 
 ```
+/*** Table of Contents ***
 
-    <!-- Nav Bar styling -->
-    <style>
-      * {
-        box-sizing: border-box;
-        padding: 0;
-      }
+  1. Global Styling
 
-      body {
-        height: 100vh;
-        width: 100%;
-      }
-      
-      nav {
-        background-color: olivedrab;
-        width: 100%;
-      }
-      
-      nav ul {
-        display: flex;
-      }
-      
-      nav ul li {
-        list-style-type: none;
-        text-decoration: none;
-        color: #fff;
-        margin: 20px 20px;
-      }
+  2. Navbar
 
-      #main {
-        height: 50vh;
-        width: 100%;
-        margin: auto;
-        border-top: 3px #dbc solid;
-        text-align: center;
-      }
+  3. Main section
 
-      .outer-most-box {
-        height:400px;
-        width: 400px;
-        background-color: brown;
-        z-index: -2;
-      }
+  4. Contact section
+*/
 
-      .outer-box {
-        height: 350px;
-        width: 350px;
-        border: 6px solid tan;
-      }
 
-      .middle-box {
-        height: 300px;
-        width: 300px;
-        border: 5px solid green;
-      }
+/* Global Styling */
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
 
-      .inner-box {
-        height: 250px;
-        width: 250px;
-        border: 4px solid tan;
-      }
+body {
+  height: 100vh;
+  width: 100%;
+}
 
-      .inner-most-box {
-        height: auto;
-        width: auto;
-        border: 3px solid #222;
-      }
+/* Navbar */
+nav {
+  background-color: olivedrab;
+  width: 100%;
+}
 
-      #contact {
-        border-top: 1px solid tan;
-        background-color: bisque;
-        text-align: center;
-        padding: 20px;
-      }
+nav ul {
+  display: flex;
+}
 
-      form {
-        border: 4px solid tan;
-        border-radius: 20px;
-        padding: 10px 20px;
-        width: 35%
-      }
+nav ul li {
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+  margin: 20px 20px;
+}
 
-      .textfield {
-        width: 300px;
-        margin: 5px 0 0 0;
-      }
+/* Main Section */
+#main {
+  height: 50vh;
+  width: 100%;
+  margin: auto;
+  border-top: 3px #dbc solid;
+  text-align: center;
+}
 
-      .btn {
-        padding: 10px 40px;
-        background-color: #333;
-        color: #fff;
-      }
+.outer-most-box {
+  height:400px;
+  width: 400px;
+  background-color: brown;
+  z-index: -2;
+}
 
-    </style>
+.outer-box {
+  height: 350px;
+  width: 350px;
+  border: 6px solid tan;
+}
+
+.middle-box {
+  height: 300px;
+  width: 300px;
+  border: 5px solid green;
+}
+
+.inner-box {
+  height: 250px;
+  width: 250px;
+  border: 4px solid tan;
+}
+
+.inner-most-box {
+  height: auto;
+  width: auto;
+  border: 3px solid #222;
+}
+
+/* Contact Section */
+#contact {
+  border-top: 1px solid tan;
+  background-color: bisque;
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  border: 4px solid tan;
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 35%
+}
+
+.textfield {
+  width: 300px;
+  margin: 5px 0 0 0;
+}
+
+.btn {
+  padding: 10px 40px;
+  background-color: #333;
+  color: #fff;
+}
+
 ```
 
 * *Far from perfect but things just need to be adjusted from here and it will be all set.*
