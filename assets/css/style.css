@@ -1,12 +1,17 @@
 /*** Table of Contents ***
 
   1. Global Styling
+    - text -- #4F4846
 
   2. Navbar
+    - #266150
 
   3. Main section
+    - #504846
 
   4. Contact section
+    - #E8CEBF
+    .btn -- #4F4846
 */
 
 
@@ -14,21 +19,30 @@
 * {
   box-sizing: border-box;
   padding: 0;
+  margin: 0;
 }
 
 body {
+  position: relative;
   height: 100vh;
   width: 100%;
+  color: #4F4846;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Navbar */
 nav {
-  background-color: olivedrab;
+  background-color: #266150;
   width: 100%;
+  margin: 0 0 20px 0;
+  float: right;
+  text-align: right;
+  border-bottom: 8px #DDAF94 solid;
 }
 
 nav ul {
   display: flex;
+  float:right;
 }
 
 nav ul li {
@@ -40,66 +54,104 @@ nav ul li {
 
 /* Main Section */
 #main {
-  height: 50vh;
   width: 100%;
   margin: auto;
-  border-top: 3px #dbc solid;
   text-align: center;
+  top: 50%;
+  display: relative;
+}
+
+#main h1 {
+  margin: 10px;
+}
+
+#main p {
+  margin: 20px;
 }
 
 .outer-most-box {
-  height:400px;
-  width: 400px;
-  background-color: brown;
+  height:315px;
+  width: 315px;
+  margin: auto;
+  background-color: #504846;
   z-index: -2;
+  text-align: center;
+  top: 50%;
+  display: flex;
 }
 
 .outer-box {
-  height: 350px;
-  width: 350px;
-  border: 6px solid tan;
+  height: 275px;
+  width: 275px;
+  margin: auto;
+  border: 9px solid #E8CEBF;
+  text-align: center;
+  top: 50%;
+  display: flex;
 }
 
 .middle-box {
-  height: 300px;
-  width: 300px;
-  border: 5px solid green;
+  height: 225px;
+  width: 225px;
+  margin: auto;
+  border: 8px solid #266150;
+  top: 50%;
+  display: flex;
 }
 
 .inner-box {
-  height: 250px;
-  width: 250px;
-  border: 4px solid tan;
+  height: 175px;
+  width: 175px;
+  margin: auto;
+  border: 7px solid #DDAF94;
+  top: 50%;
+  display: flex;
 }
 
 .inner-most-box {
   height: auto;
   width: auto;
-  border: 3px solid #222;
+  margin: auto;
+  border: 4px solid #444;
+  top: 50%;
+  display: flex;
+}
+
+.inner-most-box h2 {
+  color: #E9CEBD;
+  font-weight: 3000;
 }
 
 /* Contact Section */
 #contact {
-  border-top: 1px solid tan;
-  background-color: bisque;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid #DDAF94;
+  background-color: #E8CEBF;
   text-align: center;
   padding: 20px;
+}
+
+#contact h3 {
+  margin: 10px;
 }
 
 form {
   border: 4px solid tan;
   border-radius: 20px;
   padding: 10px 20px;
-  width: 35%
+  width: 40%;
+  margin: auto;
 }
 
 .textfield {
-  width: 300px;
+  width: 70%;
   margin: 5px 0 0 0;
 }
 
 .btn {
   padding: 10px 40px;
-  background-color: #333;
+  background-color: #4F4846;
   color: #fff;
 }

@@ -24,12 +24,12 @@
   <section id="main">
     <h1>My New Website</h1>
 
-    <div class="outer-most-box">
+    <div class="outer-most-box center">
       <div class="outer-box">
         <div class="middle-box">
-          <div class="inner-box">
+          <div class="inner-box center">
             <div class="inner-most-box">
-              <h4>COMING SOON</h4>
+              <h2>COMING<br />SOON</h2>
             </div>
           </div>
         </div>
@@ -40,16 +40,16 @@
   </section>
 
   <!-- Contact Section component -->
-  <section id="contact">
+  <section id="contact" onsubmit="formhandler()">
     <h3>Contact Me</h3>
-    <form onsubmit="formHandler(data)">
+    <form id="contact-form">
       <div>
         <label>Name:</label>
-        <input type="text" class="textfield" />
+        <input type="text" name="name" class="textfield" />
       </div>
       <div>
         <label>Email:</label>
-        <input type="text" class="textfield" />
+        <input type="text" name="email" class="textfield" />
       </div>
       <div>
         <input class="btn" type="submit" value="Send" />
@@ -58,8 +58,8 @@
   </section>
 
   <script>
-    const formHandler(event, data) {
-      event.preventDefault();
+    const formHandler() {
+      const data = document.getElementById("contact-form").submit();
       alert({
         message: "Congratulation's, form is submitted!",
         data: data
