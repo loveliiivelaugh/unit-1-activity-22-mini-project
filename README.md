@@ -9,7 +9,7 @@ My motivation for this website was to replicate the look and functionality exact
 
 ## Usage
 
-* `git clone https://github.com/loveliiivelaugh/unit-1-activity-22-mini-project.git`
+* In the terminal. `git clone https://github.com/loveliiivelaugh/unit-1-activity-22-mini-project.git`
 
 * Open `./index.html` in a web browser.
 
@@ -21,4 +21,4 @@ My motivation for this website was to replicate the look and functionality exact
 
 ## Credits
 
-* *For color dropper tool (extract colors from images)* [Adobe Illustrator](https://www.adobe.com/products/illustrator.html?sdid=KKQML&mv=search&s_kwcid=AL!3085!10!79645985794438!20541717517&ef_id=be28ec503b0719af3ce68c0c96acc8ce:G:s&msclkid=be28ec503b0719af3ce68c0c96acc8ce)
+* *For color dropper tool (extract colors from images)* [Adobe Illustrator](https://www.adobe.com/products/illustrator.html?sdid=KKQML&mv=search&s_kwcid=AL!3085!10!79645985794438!20541717517&ef_id=be28ec503b0719af3ce68c0c96acc8ce:G:s&msclkid=be28ec503b0719af3ce68c0c96acc8ce).
