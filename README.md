@@ -23,7 +23,7 @@ My motivation for this website was to replicate the look and functionality exact
 
 * *For color dropper tool (extract colors from images)* [Adobe Illustrator](https://www.adobe.com/products/illustrator.html?sdid=KKQML&mv=search&s_kwcid=AL!3085!10!79645985794438!20541717517&ef_id=be28ec503b0719af3ce68c0c96acc8ce:G:s&msclkid=be28ec503b0719af3ce68c0c96acc8ce).
 
-#### Color extracted/used
+#### Color's extracted/used
 
 **Table of Contents**
 
