@@ -9,11 +9,11 @@ My motivation for this website was to replicate the look and functionality exact
 
 ## Usage
 
-* In the terminal. `git clone https://github.com/loveliiivelaugh/unit-1-activity-22-mini-project.git`
+* 👨🏻‍💻 In the terminal. `git clone https://github.com/loveliiivelaugh/unit-1-activity-22-mini-project.git`
 
-* Open `./index.html` in a web browser.
+* 💬 Open `./index.html` in a web browser.
 
-* Tada!
+* 🏋🏻‍♂️ Tada!
 
 ## Instructions
 
